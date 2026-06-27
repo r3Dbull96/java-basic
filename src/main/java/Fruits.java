@@ -6,7 +6,7 @@ public class Fruits {
         List<String> fruits = List.of("Яблоко", "Банан", "Апельсин", "Киви", "Абрикос");
 
         for (int i = 0; i < fruits.size(); i++) {
-            System.out.println(i + 1 + ". " + fruits.get(i));
+            System.out.println((i + 1) + ". " + fruits.get(i));
         }
     }
 }
